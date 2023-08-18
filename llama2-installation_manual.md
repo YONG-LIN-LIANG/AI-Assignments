@@ -66,7 +66,7 @@
 4. Click the "Start" button to begin the chat.
 Re-running the Environment:
 
-<div style="margin:15px 15px;">
+### Re-running the Environment:
 
 1. Open the Anaconda PowerShell.
 2. Activate the textgen2 virtual environment:
@@ -82,8 +82,6 @@ Re-running the Environment:
 
 > *<p style="padding: 10px 0; margin-top:20px;font-size:12px;"> Please replace path\to\text-generation-webui in the "Re-running the Environment" section with the actual path to the text-generation-webui directory on your system.* </p>
 >
-
-</div>
 
 </div>
 
