@@ -1,4 +1,4 @@
----
+<!--
 
 1. Code section example by Steven
 <section style="background: #000; color:#fff; padding:10px 10px 10px 20px;border-radius:5px; font-weight:200; font-family:Menlo,Consolas,Monaco,Liberation Mono,Lucida Console; font-size:12px;margin:15px;">sh ./download.sh</section>
@@ -11,7 +11,7 @@
 
 </div>
 
----
+-->
 
 # Manual for installing and running LLaMA2 on:
 # **Windows 11:**
