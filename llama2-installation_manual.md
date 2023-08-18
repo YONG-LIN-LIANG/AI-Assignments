@@ -111,11 +111,11 @@ Re-running the Environment:
 ### Step 4: Obtain Model Resources
 1. Visit the LLaMA repository page.
 
-2. Navigate to the section below and access the Meta AI page.
+2. Navigate to [Meta AI](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) page.
 3. Fill in the form and submit it. Check your email for a message from Meta containing the models link.
 
 
-4. Create a folder named meta_models within the llama2 directory.
+4. Create a folder named **meta_models** within the llama2 directory.
 
 ### Step 5: Download Models
 1. In the meta_models folder, execute the download.sh script to download model: 
@@ -137,7 +137,7 @@ Re-running the Environment:
 
 
 ### Step 7: Prepare the 7B Model
-1. Ensure your Python version is 3.11 or above before going further.
+1. Ensure your Python version is **3.11** or above before going further.
 2. Run the command install required libraries: 
 <section style="background: #000; color:#fff; padding:10px 10px 10px 20px;border-radius:5px; font-weight:200; font-family:Menlo,Consolas,Monaco,Liberation Mono,Lucida Console; font-size:12px;margin:15px;">python3 -m pip install -r requirements.txt</section>
 
