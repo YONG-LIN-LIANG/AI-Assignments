@@ -55,10 +55,12 @@
 <section style="background: #000; color:#fff; padding:10px 10px 10px 20px;border-radius:5px; font-weight:200; font-family:Menlo,Consolas,Monaco,Liberation Mono,Lucida Console; font-size:12px;margin:15px;">python server.py</section>
    
 2. Note the URL displayed in the command prompt (e.g., an IP address). You'll use this URL to access the Text AI generator in your browser.
+
 ### **Step 7: Access the Text Generation UI**
 1. Open your web browser (e.g., Chrome, Firefox).
 2. Enter the URL you noted from the command prompt into the browser's address bar and press Enter.
 3. The Text AI generator interface should now be visible.
+
 ### **Step 8: Choose and Start a Model**
 1. Within the Text AI generator interface, navigate to the "Chat" tab.
 2. Choose a model you want to use from the provided Hugging Face models. You can find the list of available models at https://huggingface.co/TheBloke .
@@ -66,7 +68,7 @@
 4. Click the "Start" button to begin the chat.
 Re-running the Environment:
 
-### Re-running the Environment:
+### **Re-running the Environment:**
 
 1. Open the Anaconda PowerShell.
 2. Activate the textgen2 virtual environment:
