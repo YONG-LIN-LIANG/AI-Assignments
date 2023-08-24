@@ -1,12 +1,9 @@
 #! /bin/bash
-file_path="llama2-installation_manual.pdf"
 branch=$(git symbolic-ref --short HEAD)
-if [ -e "$file_path" ]; then
-    echo "File exists. Deleting..."
-    rm "$file_path"
-    echo "File deleted."
+if [ -n "$(find . -type f -name "*.pdf")" ]; then
+    find . -type f -name "*.pdf" -exec rm -f {} \; -exec echo "PDF files are successfully deleted." \;
 else
-    echo "File does not exist."
+    echo "You have no PDF files in the directory."
 fi
 if [ $# -eq 1 ]
 then
